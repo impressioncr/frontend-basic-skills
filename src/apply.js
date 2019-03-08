@@ -32,5 +32,5 @@ function bar(name, age) {
   }
 }
 
-bar.myApply(foo, 'kevin', 18)
+bar.myApply(foo, ['kevin', 18])
 bar.myApply(null)
