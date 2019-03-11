@@ -1,5 +1,5 @@
-
-const getType = function () {
+// 判断变量类型
+const getType = function (obj) {
   let class2type = {}
   "Boolean Number String Function Array Date RegExp Object Error".split(" ")
     .forEach(element => (class2type["[object " + element + "]"] = element.toLowerCase()))
