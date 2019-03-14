@@ -1,3 +1,7 @@
+/**
+ * @function 快速排序
+ * @param {*} arr 
+ */
 function quick_sort(arr) {
   if (arr.length <= 1) {
     return arr
