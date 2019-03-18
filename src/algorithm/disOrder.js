@@ -3,10 +3,11 @@
  */
 const disOrder = arr => {
   let len = arr.length
+  let lenOrignal = len
   let newArr = []
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < lenOrignal; i++) {
     let random = Math.floor(Math.random() * len)
-    nArr.push(arr[random])
+    newArr.push(arr[random])
     arr.splice(random, 1)
     len -= 1
   }
